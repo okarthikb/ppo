@@ -4,7 +4,7 @@ PPO stands for Proximal Policy Optimization. It was introduced by OpenAI in this
 
 ![](ppo.png)
 
-Need to start with the right hyperparameters for good training, unlike policy gradient. But CartPole-v0 is a simple discrete action-space problem, so maybe it's not ideal?
+I don't know why it's taking longer to train than vanilla policy gradient. But it's definitely improving, so the implementation works.
 
 <p align="center"><img src="returns.png"></p>
 
